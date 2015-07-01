@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MyCameraActivity!</string>
+    <string name="app_name">FACameraDemo</string>
+    <string name="arc_hf_btnBrowse">Brower</string>
+    <string name="arc_hf_btnCamera">Photos</string>
+    <string name="btnVideo">Record Video</string>
+    <string name="btnImg">Take Photo</string>
+    <string name="btnVideoBrowse">Videos</string>
+    <string name="arc_hf_file_rename">Input new name</string>
+    <string name="btnSetting">Settings</string>
+    <string name="pictureSizeText">Picture Size</string>
+    <string name="videoSizeText">Video Size</string>
+    <string name="btnSave">Save</string>
+
+</resources>

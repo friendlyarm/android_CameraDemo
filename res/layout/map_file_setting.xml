@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<TextView android:id="@+id/label1" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/pictureSizeText"/>
+
+	<Spinner android:id="@+id/pictureSizeSpinner"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"/>
+	
+	<TextView android:id="@+id/label1" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/videoSizeText"/>
+
+	<Spinner android:id="@+id/videoSizeSpinner"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"/>
+	
+    <Button
+        android:id="@+id/arc_hf_btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSave" />
+
+</LinearLayout>

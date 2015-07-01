@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/arc_hf_img_btnGridShow"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:text="@string/arc_hf_btnBrowse" />
+
+    <Button
+        android:id="@+id/btnVideo"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:text="@string/btnVideo" />
+    
+    <Button
+        android:id="@+id/btnImg"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:text="@string/btnImg" />
+
+
+    <Button
+        android:id="@+id/arc_hf_video_btnVideoBrowse"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:text="@string/btnVideoBrowse" />
+
+    <Button
+        android:id="@+id/arc_hf_btnSetting"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:text="@string/btnSetting" />
+
+</LinearLayout>
